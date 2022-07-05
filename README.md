@@ -4,7 +4,7 @@ fix to vmware vmmon issues
 
 ### Install VMware Workstation pro on linux
 
-  https://www.vmware.com/go/getworkstation-linux
+  https://www.vmware.com/go/getworkstation-linux \n
   sudo sh ~/Downloads/VMware-Workstation-Full-*
 
 ### Free VMware Workstation Pro full license keys 
@@ -13,7 +13,7 @@ fix to vmware vmmon issues
 
 ### linux headers issues
 
-  sudo apt-get update
+  sudo apt-get update \n
   sudo apt-get upgrade
   reboot 
   sudo apt-get install linux-headers-$(uname -r)                    # after reboot write this command
