@@ -28,5 +28,5 @@ fix to vmware vmmon issues
   tar -cf vmnet.tar vmnet-only
   tar -cf vmmon.tar vmmon-only
   sudo cp -v vmmon.tar vmnet.tar /usr/lib/vmware/modules/source/
-  vmware-modconfig --console --install-all
+  sudo vmware-modconfig --console --install-all
   </pre>
